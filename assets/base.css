@@ -1367,6 +1367,10 @@ button.shopify-payment-button__button--unbranded {
 .share-button {
   display: block;
   position: relative;
+  background-color: #838383;
+  width: min-content;
+  padding: 0.5rem;
+  padding-inline: 1rem;
 }
 
 .share-button details {
@@ -1374,7 +1378,7 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .share-button__button {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   color: rgb(var(--color-link));
@@ -2001,6 +2005,13 @@ input[type='checkbox'] {
 .product__info-container .loading__spinner:not(.hidden) ~ *,
 .quantity__rules-cart .loading__spinner:not(.hidden) ~ * {
   visibility: hidden;
+}
+
+quantity-input.quantity {
+  background: #838383;
+}
+quantity-input.quantity * {
+  color: rgb(3, 4, 29);
 }
 
 /* component-modal */
@@ -2773,11 +2784,13 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item span {
+  padding: 1rem;
   transition: text-decoration var(--duration-short) ease;
 }
 
 .header__menu-item:hover span {
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: #838383;
   text-underline-offset: 0.3rem;
 }
 
@@ -3565,4 +3578,30 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+.payment-types ul li img {
+  height: 40px; /* Adjust height as needed */
+  width: auto;
+}
+
+.footer__content-bottom-wrapper {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Center items vertically */
+}
+
+.payment-types {
+  /* Optional: Adjust styling for the payment types section */
+  margin-left: auto; /* Push payment types to the right */
+}
+
+.payment-types ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+  display: flex;
+}
+
+.payment-types ul li {
+  margin-right: 10px; /* Adjust spacing between payment method icons */
 }

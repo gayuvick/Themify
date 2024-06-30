@@ -57,100 +57,6 @@
         "show_text_below": false
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/thin-plant-stems-in-sun.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Exploring-flower-geography-how-climate-and-region-shape-floral-diversity",
-            "link": "shopify:\/\/blogs\/bio-diversity"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hand-placed-on-flower-petals.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Gender-and-flowers-exploring-cultural-perspectives-and-symbolism",
-            "link": "shopify:\/\/blogs\/perceptions\/gender-and-flowers-exploring-cultural-perspectives-and-symbolism"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/spiky-purple-flower-ball.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Flower Language",
-            "link": "shopify:\/\/blogs\/perceptions\/flower-language"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Recent Posts",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_JTVnN3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_eEinri": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Crafting beauty through every bloom has been our passion at Cedarly<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_6DgLia": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For over 2 years, we've dedicated ourselves to sourcing the finest flowers and creating stunning arrangements that<strong> speak to the heart<\/strong>. Each bouquet is a testament to our commitment to quality, combining artistry with nature's elegance. Discover the <strong>beauty of fresh blooms<\/strong> and the art of floral storytelling at Cedarle<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_eEinri",
-        "text_6DgLia"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "collection_list_cXHxJw": {
       "type": "collection-list",
       "blocks": {
@@ -256,7 +162,7 @@
         "title": "<strong>From our family to yours<\/strong>",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "primary",
@@ -268,13 +174,157 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_JTVnN3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eEinri": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Crafting beauty through every bloom has been our passion at Cedarly<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_6DgLia": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For over 2 years, we've dedicated ourselves to sourcing the finest flowers and creating stunning arrangements that<strong> speak to the heart<\/strong>. Each bouquet is a testament to our commitment to quality, combining artistry with nature's elegance. Discover the <strong>beauty of fresh blooms<\/strong> and the art of floral storytelling at Cedarle<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eEinri",
+        "text_6DgLia"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thin-plant-stems-in-sun.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Exploring-flower-geography-how-climate-and-region-shape-floral-diversity",
+            "link": "shopify:\/\/blogs\/bio-diversity"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand-placed-on-flower-petals.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Gender-and-flowers-exploring-cultural-perspectives-and-symbolism",
+            "link": "shopify:\/\/blogs\/perceptions\/gender-and-flowers-exploring-cultural-perspectives-and-symbolism"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spiky-purple-flower-ball.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Flower Language",
+            "link": "shopify:\/\/blogs\/perceptions\/flower-language"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Recent Posts",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_CEzQin": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_mnMFJ4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Colour Lifter",
+            "heading_size": "h2"
+          }
+        },
+        "text_RBjRXG": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_TqMB8L": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View Products",
+            "button_link_1": "shopify:\/\/products\/garden-medley-bouquet",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mnMFJ4",
+        "text_RBjRXG",
+        "buttons_TqMB8L"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bridal-rose-bouquet.jpg",
+        "image_2": "shopify:\/\/shop_images\/hand-placed-on-flower-petals.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "image_banner",
-    "multicolumn",
-    "image_with_text_JTVnN3",
     "collection_list_cXHxJw",
-    "multicolumn_zBLUUT"
+    "multicolumn_zBLUUT",
+    "image_with_text_JTVnN3",
+    "multicolumn",
+    "image_banner_CEzQin"
   ]
 }

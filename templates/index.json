@@ -279,13 +279,6 @@
             "heading_size": "h2"
           }
         },
-        "text_RBjRXG": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "buttons_TqMB8L": {
           "type": "buttons",
           "settings": {
@@ -300,7 +293,6 @@
       },
       "block_order": [
         "heading_mnMFJ4",
-        "text_RBjRXG",
         "buttons_TqMB8L"
       ],
       "settings": {

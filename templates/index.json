@@ -57,34 +57,6 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -178,12 +150,131 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "collection_list_cXHxJw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_A8xnYU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hot-sale"
+          }
+        },
+        "featured_collection_cfRqgT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "seasonal-symphony-collection"
+          }
+        },
+        "featured_collection_gPEJyw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "timeless-beauty-collection"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_A8xnYU",
+        "featured_collection_cfRqgT",
+        "featured_collection_gPEJyw"
+      ],
+      "settings": {
+        "title": "Shop By Collections",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_zBLUUT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_L8YYE4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flower5.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/autumn-harvest-bouquet"
+          }
+        },
+        "column_VpWrtj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flower6.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/sunlit-meadow-bouquet"
+          }
+        },
+        "column_ktBXBB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flower7.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/spring-serenade-bouquet"
+          }
+        },
+        "column_DQegnG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wedding-bouquet-on-the-rocks.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/garden-medley-bouquet"
+          }
+        },
+        "column_nAPdyb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seasonal-wedding-bouquet-close-up.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/winter-wonderland-bouquet"
+          }
+        }
+      },
+      "block_order": [
+        "column_L8YYE4",
+        "column_VpWrtj",
+        "column_ktBXBB",
+        "column_DQegnG",
+        "column_nAPdyb"
+      ],
+      "settings": {
+        "title": "<strong>From our family to yours<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
     "multicolumn",
-    "image_with_text_JTVnN3"
+    "image_with_text_JTVnN3",
+    "collection_list_cXHxJw",
+    "multicolumn_zBLUUT"
   ]
 }

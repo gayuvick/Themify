@@ -3605,3 +3605,87 @@ details-disclosure > details {
 .payment-types ul li {
   margin-right: 10px; /* Adjust spacing between payment method icons */
 }
+/* Basic styling for FAQ section */
+.faq-section {
+  margin-top: 20px;
+}
+
+/* Styling for each FAQ item */
+.faq-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Styling for the question */
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Styling for the answer */
+.faq-answer {
+  margin-top: 10px;
+  display: none; /* Initially hides the answer */
+  padding-left: 20px; /* Indentation for the answer */
+}
+
+/* Styling for the toggle button */
+.toggle-answer {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  margin-left: 5px;
+  outline: none;
+}
+.testimonial-section {
+  width:60%;
+  background-color: lavender;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.testimonial {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.testimonial-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: #838383;
+  border-radius: 15px;
+}
+
+.testimonial-text {
+  flex: 1;
+}
+
+.testimonial h3 {
+  margin: 0 0 10px 0;
+}
+
+.testimonial p {
+  margin: 0;
+}
+
+.testimonial-author {
+  flex-direction: column;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+

@@ -1270,3 +1270,23 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    const toggleButtons = item.querySelectorAll('.toggle-answer');
+    
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const answer = item.querySelector('.faq-answer');
+        const isVisible = answer.style.display === 'block';
+        
+        answer.style.display = isVisible ? 'none' : 'block';
+        this.innerText = isVisible ? '+' : '-';
+        this.setAttribute('aria-expanded', !isVisible);
+      });
+    });
+  });
+});
+

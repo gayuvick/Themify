@@ -1,0 +1,89 @@
+{% schema %}
+{
+  "name": "Testimonial Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show Author Name"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Testimonial Quote"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author Name"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Testimonial Description"
+        },
+        {
+          "type": "text",
+          "id": "designation",
+          "label": "Author Designation"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default Testimonial Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+
+<div class="testimonial-section">
+  <h2>{{ section.settings.title }}</h2>
+  {% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+      <div class="testimonial">
+     
+     
+   
+          <div class="testimonial-image">
+            <img src="{{ 'testimony-image.png' | asset_url }}" alt="{{ block.settings.author }}">
+          </div>
+      
+        <div class="testimonial-text">
+          <h1><strong>"{{ block.settings.quote }}"</strong></h1>
+          <p>{{block.settings.description}}</p>
+           <div class="testimonial-author">
+          <p>
+            <strong>{{ block.settings.author }}</strong><br>
+            <p> {{block.settings.designation}}</p>
+            
+          </p>
+        </div>
+        </div>
+       
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No testimonials available.</p>
+  {% endif %}
+</div>
+

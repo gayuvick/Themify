@@ -107,26 +107,19 @@
     "image_with_text_UfnXwg": {
       "type": "image-with-text",
       "blocks": {
-        "heading_NVXRWj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Custom Image Text",
-            "heading_size": "h1"
-          }
-        },
         "text_dMMYgH": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ product.metafields.custom.image_description | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_NVXRWj",
         "text_dMMYgH"
       ],
       "settings": {
+        "image": "{{ product.metafields.custom.image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

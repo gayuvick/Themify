@@ -39,7 +39,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -79,57 +80,18 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
+        "media_fit": "contain",
         "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "line-break": {
@@ -142,37 +104,48 @@
       "settings": {
       }
     },
-    "product-faq": {
-      "type": "faq",
+    "image_with_text_UfnXwg": {
+      "type": "image-with-text",
       "blocks": {
-        "faq-0": {
-          "type": "faq",
+        "heading_NVXRWj": {
+          "type": "heading",
           "settings": {
-            "question": "What is your return policy?",
-            "answer": "Our return policy is 30 days no questions asked."
+            "heading": "Custom Image Text",
+            "heading_size": "h1"
           }
         },
-        "faq-1": {
-          "type": "faq",
+        "text_dMMYgH": {
+          "type": "text",
           "settings": {
-            "question": "Do you offer international shipping?",
-            "answer": "Yes, we ship to over 100 countries worldwide."
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "faq-0",
-        "faq-1"
+        "heading_NVXRWj",
+        "text_dMMYgH"
       ],
       "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "multicolumn",
     "line-break",
-    "product-faq",
-    "custom-section"
+    "custom-section",
+    "image_with_text_UfnXwg"
   ]
 }

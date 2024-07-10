@@ -60,6 +60,13 @@
           "settings": {
           }
         },
+        "custom_app_star_rating_W8hq7g": {
+          "type": "shopify:\/\/apps\/custom-app\/blocks\/star_rating\/b2d4928f-cb0d-471c-8253-2d17e2ba2738",
+          "settings": {
+            "product": "{{product}}",
+            "colour": "#242833"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -76,6 +83,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "custom_app_star_rating_W8hq7g",
         "share"
       ],
       "settings": {

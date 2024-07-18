@@ -39,7 +39,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -79,9 +80,13 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
+        "media_fit": "contain",
         "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -137,11 +142,6 @@
       "settings": {
       }
     },
-    "custom-section": {
-      "type": "custom-section",
-      "settings": {
-      }
-    },
     "product-faq": {
       "type": "faq",
       "blocks": {
@@ -166,6 +166,41 @@
       ],
       "settings": {
       }
+    },
+    "custom-section": {
+      "type": "custom-section",
+      "settings": {
+      }
+    },
+    "rich_text_VMVhbb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EQ7BMa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Testing metafield creation in storefront",
+            "heading_size": "h1"
+          }
+        },
+        "text_Wwckpi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.global.description | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EQ7BMa",
+        "text_Wwckpi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -173,6 +208,7 @@
     "multicolumn",
     "line-break",
     "product-faq",
-    "custom-section"
+    "custom-section",
+    "rich_text_VMVhbb"
   ]
 }

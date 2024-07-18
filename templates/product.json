@@ -43,6 +43,13 @@
             "swatch_shape": "circle"
           }
         },
+        "text_HWyaQa": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Theme:  <\/strong>{{ product.metafields.custom.graphql_color_text.value.text.value }}",
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -73,6 +80,7 @@
         "caption",
         "price",
         "variant_picker",
+        "text_HWyaQa",
         "quantity_selector",
         "buy_buttons",
         "description",
